@@ -1,0 +1,218 @@
+/* }All common css file start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.mb{
+    margin-bottom: 80px !important;
+}
+.mr{
+    margin-right: 0 !important;
+}
+/* }All common css file end */
+
+/* Header part start */
+.bg-body-tertiary {
+    background-color: #244b57 !important;
+  }
+.nav-link{
+    color: #ffffff;
+    text-align: right;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px; 
+    font-weight: 500;
+    padding-left: 35px;
+}
+/* Header part end */
+
+/* Bennar part start */
+#bennar_part{
+    padding-top: 130px;
+    padding-bottom: 70px;
+    background: #06b5eb;
+}
+.bennar_text h3{
+    color: var #21243D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.bennar_text p{
+    color: var(--Dark-Color, #21243D);
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 40px;
+    padding-right: 100px;
+}
+.bennar_text a{
+    color: #FFF;
+    font-family: 'Heebo', sans-serif;    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 2px;
+    background: #FF6464;
+    padding: 15px 20px;
+    margin-top: 35px;
+    margin-bottom: 75px;
+}
+.bennar_img{
+    position: relative;
+}
+.bennar_img .golla{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -333;
+}
+/* Bennar part end */
+#blog_part{
+    padding: 25px 0;
+    background: #8dafb8;
+}
+.blog_card_text h4{
+    color: var(--Dark-Color, #21243D);
+    font-family: 'Heebo', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+.details_card{
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
+    padding: 30px 20px;
+}
+.details_card h3{
+    color: var(--Dark-Color, #21243D);
+    font-family: 'Heebo', sans-serif;
+    font-size: 26px;;
+    font-weight: 700;
+    line-height: normal;
+}
+.details_card h4{
+    color: var(--Dark-Color, #21243D);
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+.details_card p{
+    color: var(--Dark-Color, #21243D);
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+.right_blog h4{
+    color: #00A8CC;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Blog part end */
+
+/* Work part start */
+#work_part{
+    padding-top: 45px;
+    padding-bottom: 80px;
+}
+.work_text h4{
+    color: var(--Dark-Color, #21243D);
+    font-family: 'Heebo', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 45px;
+}
+.work_card img{
+    width: 100%;
+}
+.work_texts h3{
+    color:#21243D;
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 60px;
+    
+}
+.work_texts a{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    color: #fdfdfd;
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    border-radius: 16px;
+    background: #142850;
+    margin: 25px 0;
+}
+.work_texts span{
+    color: var(--Light, #8695A4);
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10px;
+}
+.work_texts p{
+    color: var(--Dark-Color, #21243D);
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+.col-lg-10{
+    margin: 0 auto;
+}
+.line{
+    background-color: #E0E0E0;
+    padding: 1px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+/* Work part end */
+
+/* Icon-part start */
+#icon_part{
+    background: #000000fa;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.icon_item{
+    display: flex;
+    justify-content: center;
+}
+.icon_item a img{
+    height: 35px;
+    width: 35px;
+    margin-right: 35px;
+}
+.icon_text{
+    text-align: center;
+}
+.icon_text p{
+    padding-top: 30px;
+}
+/* Icon-part end */
